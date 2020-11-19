@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "making tic tac toe web app using node react & soket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikash-rahii-au9/Tic-Tac-Toe_webapp.git"
+  },
+  "author": "vikash rahii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikash-rahii-au9/Tic-Tac-Toe_webapp/issues"
+  },
+  "homepage": "https://github.com/vikash-rahii-au9/Tic-Tac-Toe_webapp#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.3",
+    "socket.io-client": "^3.0.3"
+  }
+}
