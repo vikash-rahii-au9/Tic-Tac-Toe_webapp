@@ -4,7 +4,7 @@ const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 const path = require('path');
 
-
+const Session = require('./SessionObject');
 
 
 var codeToSession = {}; //only for joining lobbies
